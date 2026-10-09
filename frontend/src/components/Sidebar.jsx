@@ -20,8 +20,8 @@ export default function Sidebar({
   const navClass = (page) =>
     `mb-2 flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-semibold transition ${
       activePage === page
-        ? "bg-[#ee027e]/10 text-[#ee027e]"
-        : "text-slate-600 hover:bg-[#ee027e]/5 hover:text-[#ee027e]"
+        ? "bg-[#410102]/10 text-[#410102]"
+        : "text-slate-600 hover:bg-[#410102]/5 hover:text-[#410102]"
     }`;
 
   return (
@@ -50,8 +50,8 @@ export default function Sidebar({
         <div className="flex h-[72px] items-center justify-between border-b border-slate-200 px-5">
           <div className="flex items-center gap-3">
             <img
-              src="/vaibhavi.png"
-              alt="Wardrobe"
+              src="/coffee.jpg"
+              alt="coffee"
               className="h-[68px] w-auto max-w-[230px] object-contain"
             />
           </div>

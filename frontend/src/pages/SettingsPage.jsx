@@ -27,7 +27,7 @@ import {
    BRAND
 ========================================================= */
 
-const BRAND_COLOR = "#ee027e";
+const BRAND_COLOR = "#410102";
 const BRAND_DARK = "#d60272";
 
 
@@ -61,13 +61,13 @@ const Toggle = ({
         duration-300
         focus:outline-none
         focus:ring-4
-        focus:ring-[#ee027e]/10
+        focus:ring-[#410102]/10
         disabled:cursor-not-allowed
         disabled:opacity-60
 
         ${
           enabled
-            ? "bg-[#ee027e]"
+            ? "bg-[#410102]"
             : "bg-slate-200"
         }
       `}
@@ -148,10 +148,10 @@ const Field = ({
 
           hover:border-slate-300
 
-          focus:border-[#ee027e]
+          focus:border-[#410102]
           focus:bg-white
           focus:ring-4
-          focus:ring-[#ee027e]/10
+          focus:ring-[#410102]/10
 
           disabled:cursor-not-allowed
           disabled:bg-slate-100
@@ -222,10 +222,10 @@ const SecretField = ({
 
             hover:border-slate-300
 
-            focus:border-[#ee027e]
+            focus:border-[#410102]
             focus:bg-white
             focus:ring-4
-            focus:ring-[#ee027e]/10
+            focus:ring-[#410102]/10
 
             disabled:cursor-not-allowed
             disabled:bg-slate-100
@@ -254,8 +254,8 @@ const SecretField = ({
             text-slate-400
             transition
 
-            hover:bg-[#ee027e]/5
-            hover:text-[#ee027e]
+            hover:bg-[#410102]/5
+            hover:text-[#410102]
           "
         >
           {show ? (
@@ -313,8 +313,8 @@ const IntegrationHeader = ({
             items-center
             justify-center
             rounded-lg
-            bg-[#ee027e]/10
-            text-[#ee027e]
+            bg-[#410102]/10
+            text-[#410102]
           "
         >
           <Icon size={18} />
@@ -344,14 +344,14 @@ const IntegrationHeader = ({
               <span
                 className="
                   rounded-full
-                  bg-[#ee027e]/10
+                  bg-[#410102]/10
                   px-2
                   py-0.5
                   text-[9px]
                   font-bold
                   uppercase
                   tracking-wide
-                  text-[#ee027e]
+                  text-[#410102]
                 "
               >
                 Enabled
@@ -755,7 +755,7 @@ export default function SettingsPage() {
             className="
               mx-auto
               animate-spin
-              text-[#ee027e]
+              text-[#410102]
             "
           />
 
@@ -812,7 +812,7 @@ export default function SettingsPage() {
             sm:text-[13px]
           "
         >
-          Manage payment and shipping settings for The Wardrobe.
+          Manage payment and shipping settings for The Coffee.
         </p>
       </div>
 
@@ -903,7 +903,7 @@ export default function SettingsPage() {
               shadow-[0_1px_2px_rgba(15,23,42,0.03)]
               transition
 
-              hover:border-[#ee027e]/20
+              hover:border-[#410102]/20
               hover:shadow-sm
             "
           >
@@ -1021,9 +1021,9 @@ export default function SettingsPage() {
                     text-slate-700
                     transition-all
 
-                    hover:border-[#ee027e]/40
-                    hover:bg-[#ee027e]/5
-                    hover:text-[#ee027e]
+                    hover:border-[#410102]/40
+                    hover:bg-[#410102]/5
+                    hover:text-[#410102]
 
                     disabled:cursor-not-allowed
                     disabled:opacity-60
@@ -1085,7 +1085,7 @@ export default function SettingsPage() {
               shadow-[0_1px_2px_rgba(15,23,42,0.03)]
               transition
 
-              hover:border-[#ee027e]/20
+              hover:border-[#410102]/20
               hover:shadow-sm
             "
           >
@@ -1246,9 +1246,9 @@ export default function SettingsPage() {
                     text-slate-700
                     transition-all
 
-                    hover:border-[#ee027e]/40
-                    hover:bg-[#ee027e]/5
-                    hover:text-[#ee027e]
+                    hover:border-[#410102]/40
+                    hover:bg-[#410102]/5
+                    hover:text-[#410102]
 
                     disabled:cursor-not-allowed
                     disabled:opacity-60
@@ -1323,7 +1323,7 @@ export default function SettingsPage() {
                 justify-center
                 gap-2
                 rounded-lg
-                bg-[#ee027e]
+                bg-[#410102]
                 px-6
                 text-xs
                 font-semibold
@@ -1331,12 +1331,12 @@ export default function SettingsPage() {
                 shadow-sm
                 transition-all
 
-                hover:bg-[#d60272]
+                hover:bg-[#410102]
                 hover:shadow-md
 
                 focus:outline-none
                 focus:ring-4
-                focus:ring-[#ee027e]/20
+                focus:ring-[#410102]/20
 
                 disabled:cursor-not-allowed
                 disabled:opacity-60

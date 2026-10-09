@@ -27,7 +27,7 @@ const pool =
 
     database:
       process.env.DB_NAME ||
-      "biryani_db",
+      "coffee_db",
 
     waitForConnections:
       true,

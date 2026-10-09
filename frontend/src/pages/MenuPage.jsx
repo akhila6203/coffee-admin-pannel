@@ -25,7 +25,7 @@ const INITIAL_FORM = {
 };
 
 const INPUT_CLASS =
-  "h-12 w-full rounded-xl border border-slate-300 px-4 text-sm text-slate-800 outline-none transition focus:border-[#ee027e] focus:ring-2 focus:ring-[#ee027e]/10";
+  "h-12 w-full rounded-xl border border-slate-300 px-4 text-sm text-slate-800 outline-none transition focus:border-[#410102] focus:ring-2 focus:ring-[#410102]/10";
 
 const TH_CLASS =
   "px-5 py-4 text-left text-xs font-bold uppercase tracking-wide text-slate-500";
@@ -337,7 +337,7 @@ export default function MenuPage() {
         <button
           type="button"
           onClick={openAddDrawer}
-          className="flex shrink-0 items-center gap-2 rounded-xl bg-[#ee027e] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#a50000] sm:px-5"
+          className="flex shrink-0 items-center gap-2 rounded-xl bg-[#410102] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#a50000] sm:px-5"
         >
           <Plus size={18} />
           <span>Add Menu</span>
@@ -397,7 +397,7 @@ export default function MenuPage() {
                     </td>
 
                     <td className="px-5 py-4">
-                      <span className="inline-flex whitespace-nowrap rounded-full bg-[#ee027e]/10 px-3 py-1 text-xs font-bold text-[#ee027e]">
+                      <span className="inline-flex whitespace-nowrap rounded-full bg-[#410102]/10 px-3 py-1 text-xs font-bold text-[#410102]">
                         {item.portion}
                       </span>
                     </td>
@@ -413,7 +413,7 @@ export default function MenuPage() {
                         <button
                           type="button"
                           onClick={() => openEditDrawer(item)}
-                          className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 transition hover:border-[#ee027e]/30 hover:bg-[#ee027e]/10 hover:text-[#ee027e]"
+                          className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 transition hover:border-[#410102]/30 hover:bg-[#410102]/10 hover:text-[#410102]"
                           title="Edit"
                         >
                           <Pencil size={16} />
@@ -617,7 +617,7 @@ export default function MenuPage() {
               <button
                 type="submit"
                 disabled={saving}
-                className="flex h-12 w-full items-center justify-center rounded-xl bg-[#ee027e] text-sm font-bold text-white transition hover:bg-[#a50000] disabled:cursor-not-allowed disabled:opacity-60"
+                className="flex h-12 w-full items-center justify-center rounded-xl bg-[#410102] text-sm font-bold text-white transition hover:bg-[#a50000] disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {saving
                   ? editingId
